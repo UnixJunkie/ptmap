@@ -18,5 +18,5 @@ remove: [
 depends: [
   "ocamlfind"
   "obuild" {build}
-  "qtest" {>= "2.2"}
+  "qtest" {test & >= "2.2"}
 ]
